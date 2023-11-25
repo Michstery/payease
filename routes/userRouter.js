@@ -10,7 +10,7 @@ const userRouter = express.Router();
 userRouter.use(cookieParser())
 
 
-userRouter.post("/signup", middlewear.validateCreateUser, controller.createUser) 
+userRouter.post("/signup",  controller.createUser) 
 
 
 userRouter.post("/login",  controller.login)
