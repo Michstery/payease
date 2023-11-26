@@ -5,6 +5,8 @@ const bodyParser = require("body-parser");
 const userModel = require("./models/user");
 const invoiceModel = require("./models/invoice");
 const cookieParser = require("cookie-parser");
+const swaggerUI = require("swagger-ui-express");
+const swaggerDocument = require("./swagger.json");
 
 require("dotenv").config();
 const { connectionToMongodb } = require("./db/connect");
@@ -15,6 +17,11 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cookieParser());
+
+
+// ==========  ~SWAGGER DEPENDECIES~ ==============// 
+app.use("/docs", swaggerUI.serve, swaggerUI.setup(swaggerDocument));
+
 
 app.use("/users", userRoute);
 // app.use("/invoice", invoiceRoute);
