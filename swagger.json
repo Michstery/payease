@@ -462,8 +462,7 @@
                               "type": "object"
                             },
                             "example": {
-                              "status": "success",
-                              "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzdmMmQ5Y2RhODBhYzE2ZWYxN2FjY2MiLCJuYW1lIjoiRGVsaWdodCIsImVtYWlsIjoiZGZlbGFzdGV2ZXRlc3RAZ21haWwuY29tIiwic3RhdHVzIjoiQWN0aXZlIiwiaWF0IjoxNjY5MjgxODAxLCJleHAiOjE2NjkyOTk4MDF9.ALVv-Xcb0IqDDlYdm7XeYpKm1jUe6ftTiBE-hmJep_o"
+                              "status": "success"
                             }
                           }
                         }
@@ -604,14 +603,12 @@
                       "example": {
                         "posts": [
                           {
-                            "category": "Accessories",
-                            "status": "Sold Out",
-                            "productName": "Amiris",
-                            "pieces": 87,
-                            "prices": 99,
-                            "productId": "cfd8dd2f-bc54-4e44-875e-934d377113ad",
-                            "createdAt": "2022-03-06T13:03:29.584Z",
-                            "updatedAt": "2022-03-06T13:03:29.584Z"
+                            
+                          "firstName":"William",
+                          "lastName": "Gilbert",
+                          "email": "williamgilbert@gmail.com",
+                        "  phoneNumber":"07065983255",
+                          "address":"01, businessName street"
                           }
                         ]
                       }
@@ -766,8 +763,7 @@
                               "type": "object"
                             },
                             "example": {
-                              "status": "success",
-                              "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzdmMmQ5Y2RhODBhYzE2ZWYxN2FjY2MiLCJuYW1lIjoiRGVsaWdodCIsImVtYWlsIjoiZGZlbGFzdGV2ZXRlc3RAZ21haWwuY29tIiwic3RhdHVzIjoiQWN0aXZlIiwiaWF0IjoxNjY5MjgxODAxLCJleHAiOjE2NjkyOTk4MDF9.ALVv-Xcb0IqDDlYdm7XeYpKm1jUe6ftTiBE-hmJep_o"
+                              "status": "success"
                             }
                           }
                         }
@@ -908,14 +904,19 @@
                       "example": {
                         "posts": [
                           {
-                            "category": "Accessories",
-                            "status": "Sold Out",
-                            "productName": "Amiris",
-                            "pieces": 87,
-                            "prices": 99,
-                            "productId": "cfd8dd2f-bc54-4e44-875e-934d377113ad",
-                            "createdAt": "2022-03-06T13:03:29.584Z",
-                            "updatedAt": "2022-03-06T13:03:29.584Z"
+                                                          
+                             " productName": "productName tester 02",
+                             " quantity":  "5",
+                              "amount":    65,
+                              "description": "description 1",
+                             " customerName":  "firstName",
+                              "customerAddress": "01, businessName street",
+                              "customerEmail":  "xeimail@gmail.com",
+                              "customerPhoneNumber":  "01, businessName street",
+                              " url": "https://checkout.paystack.com/4n3na13spdn1ght",
+                              "reference":  "vis0xu4sbe",
+                              "paid": true,
+                              "status":"paid"
                           }
                         ]
                       }
