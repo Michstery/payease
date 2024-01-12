@@ -607,7 +607,7 @@
                           "firstName":"William",
                           "lastName": "Gilbert",
                           "email": "williamgilbert@gmail.com",
-                        "  phoneNumber":"07065983255",
+                          "phoneNumber":"07065983255",
                           "address":"01, businessName street"
                           }
                         ]
@@ -905,15 +905,15 @@
                         "posts": [
                           {
                                                           
-                             " productName": "productName tester 02",
-                             " quantity":  "5",
+                             "productName": "productName tester 02",
+                             "quantity":  "5",
                               "amount":    65,
                               "description": "description 1",
-                             " customerName":  "firstName",
+                             "customerName":  "firstName",
                               "customerAddress": "01, businessName street",
                               "customerEmail":  "xeimail@gmail.com",
                               "customerPhoneNumber":  "01, businessName street",
-                              " url": "https://checkout.paystack.com/4n3na13spdn1ght",
+                              "url": "https://checkout.paystack.com/4n3na13spdn1ght",
                               "reference":  "vis0xu4sbe",
                               "paid": true,
                               "status":"paid"
